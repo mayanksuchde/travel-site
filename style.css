@@ -1,0 +1,119 @@
+body{
+    font-family: Verdana;
+}
+
+/* Nav Bar */
+nav{
+    position: fixed;
+    background-color: #FFF;
+    width: 100%;
+}
+
+.logo{
+    display: inline-block;
+    color: #2d3982;
+    font-weight: bold;
+    text-decoration: none;
+    font-size:1.25em;
+    padding-left: 30px;
+}
+
+
+.nav-list{
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+    padding-right: 30px;
+    
+}
+
+.nav-list > li{
+    display: inline-block;
+    margin-right:10px; 
+}
+
+.nav-list >li >a{
+    color:black;
+    text-decoration: none;
+}
+.current{
+ border-bottom: solid 2px #e37889;
+}
+
+
+
+/* Hero Section */
+
+header{
+    height:30rem;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding-top:100px;
+}
+.hero-content{
+    display: inline-block;
+    width:50%;
+    padding: 50px 0 0 40px;
+}
+.hero-content > h1{
+    font-family: Comic Sans MS;
+    color: #101d42;
+}
+.hero-content > button{
+    background-color: #596bc9;
+    color:white;
+    padding: 10px 30px;
+    border-radius:30px; 
+}
+
+.hero-img{
+    float: right;
+    height:90%;
+}
+
+/* Main Section */
+
+h2{
+    padding: 40px;
+}
+
+.container{
+    margin: 0 10% 10% 10%;
+}
+.dest{
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    margin: 10px;
+    border-radius:5px; 
+    color:white;
+    background-size: cover;
+    
+}
+h4{
+    text-align: right;
+    padding: 28em 1em 0 0;
+}
+
+#hawaii{
+    background-image: url("./assets/hawaii.jpg");
+}
+#iceland{
+    background-image: url("./assets/iceland.jpg");
+}
+#greece{
+    background-image: url("./assets/greece.jpg");
+}
+
+
+/* Hawaii page */
+
+.main-hawaii{
+    margin-top: 30px;
+    height:1000px;
+    
+    background-image: url("./assets/hawaii.jpg");
+    background-size:100%;
+    
+}
+
